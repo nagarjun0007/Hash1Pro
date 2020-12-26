@@ -4,26 +4,33 @@ This is demo fot git
 Commands in git
 git help config-> gives list of commands
 
+git config --global user.username "yourusername"
+
 mkdir directoryname -> make directory
 cd filename-> open directory
 git init -> initialize empty git repository(master branch created automatically) in the directory
 at last above command gives path
 
-add file in the directory
+add file in the directory or edit file
 
-git status -> gies status
+git status -> gets status
 
 
-git add filename (add file to repo)
+git add filename (add file to repo) or git add . (for multiple files)
 
-git commit -m "commit file"
 
-link local_git to git hub
+git commit -m "edited file" (commits changes at local repo with "description")
 
-git config --global user.username "yourusername"
+next link local_git to git_hub
 
-git remote add origin http link ->local and remote repos are linked
 
-git push origin master -> pushes local file to remote repo.
+git remote add origin http_link (for first time: local and remote repos are linked)
+
+git push origin master -> pushes local file to remote repo
+
+
+// all command that i used till now.
+
+
 
 
